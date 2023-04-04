@@ -1,0 +1,62 @@
+a:hover{
+text-decoration:none;
+color:rgb(9, 42, 161);
+}
+
+a{
+color:white;
+}
+
+.kitchen{
+height:100%;
+width:100%;
+padding-top:50px;
+padding-right:50px;
+padding-left:50px;
+padding-bottom:50px;
+}
+
+.container{
+height:100%;
+width:100%;
+/* border:2px solid rgb(236, 236, 236);  */
+padding: 2.0rem 3.0rem !important;
+border-radius: 0.9rem !important;
+box-sizing: border-box;
+
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-style: normal;
+font-size: 100%; 
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.5) ),
+url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
+background-size: cover;  
+background-attachment: fixed;
+color: rgb(255, 255, 255);
+}
+
+.navbar{
+    padding: 0px 8px;
+}
+
+.card{
+background: linear-gradient(to right, #49669c, #dbd0c7);
+}
+
+.cardimage{
+height: 100px;
+width: 100px;
+}
+
+#continue{
+width:100px;
+
+}
+
+#pay{
+width:100px;
+margin:0 auto;
+}
