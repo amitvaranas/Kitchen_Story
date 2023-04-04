@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kitchen Story- Ice-Cream</title>
+<link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a href="ice-cream.html" class="navbar-brand">
+          <img src="https://cdn5.vectorstock.com/i/1000x1000/38/69/letters-ks-logo-monogram-vector-27953869.jpg" alt="logo" width="50" height="50" />
+          Kitchen Story
+        </a>
+  
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color:white;">Search</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color:white;">Cart</a>
+            </li>
+                <li class="nav-item">
+                  <button class="btn btn-outline-light my-2 my-sm-0 ml-auto" onclick="logout()">Logout</button>
+                </li> 
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+        <h1 class="display-4 text-center">Select the Ice Creams to add in Cart</h1>
+  
+        <table class="table col-md-8 offset-2">
+          <thead>
+            <tr class="table-primary">
+              <th scope="col">Image</th>
+              <th scope="col">Company</th>
+              <th scope="col">Price</th>
+              <th scope="col">Add to Cart</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr class="table-secondary">
+              <th scope="row"><img src="ice-cream.jpg" class="cardimage"></th>
+              <td>Amul Ice-Cream</td>
+              <td>Rs.60</td>
+              <td><div id="cart">
+                <input
+                  type="submit"
+                  value="Add"
+                  class="btn btn-block btn-primary"
+                />
+              </div></td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row"><img src="milkmaid.jpg" class="cardimage"></th>
+              <td>Milkmaid Ice-Cream</td>
+              <td>Rs.50</td>
+              <td><div id="cart">
+                <input
+                  type="submit"
+                  value="Add"
+                  class="btn btn-block btn-primary"
+                />
+              </div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+<script src="java-script/javascript.js"></script>     
+<script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+<script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>   
+</body>
+</html>

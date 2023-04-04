@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kitchen Story-Homepage</title>
+<link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a href="homepage.html" class="navbar-brand">
+          <img src="https://cdn5.vectorstock.com/i/1000x1000/38/69/letters-ks-logo-monogram-vector-27953869.jpg" alt="logo" width="50" height="50" />
+          Kitchen Story
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color:white;">Items</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color:white;">Cart</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="logout()">Logout</button>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <h1 class="text-center">About Our Services</h1>
+            <div class="row kitchen">
+                <form class="col-md-8 offset-2"> 
+                    <input
+                      type="search"
+                      class="form-control mr-sm-2"
+                      name="search"
+                      id="search"
+                      placeholder="Search"
+                    
+                    />
+                </form>
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="searchfunc()">
+                    Serach
+                </button>
+            </div>
+            <div class="row text-center kitchen">
+              <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="pizza.jpg" class="cardimage">
+                        <a href="pizza.html"><h1>Pizza</h1></a>
+                        <p>Onion, Capsicum and Paneer loaded with 40% special Discount</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="burger.jpg" class="cardimage">
+                        <a href="burger.html"><h1>Burger</h1></a>
+                    <p>Order this Burger in a reasonable price. Highly delicious !!!</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                  <img src="ice-cream.jpg" class="cardimage">
+                    <a href="ice-cream.html"><h1>Ice Cream</h1></a>
+                    <p>Order this Ice Cream. Food of this season with 10% Discount.</p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+
+<script src="java-script/javascript.js"></script>     
+<script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+<script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>   
+</body>
+</html>
